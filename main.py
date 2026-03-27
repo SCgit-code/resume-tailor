@@ -197,7 +197,8 @@ def run(jd_url=None, company_name=None, candidate_notes=None,
 
 
 if __name__ == "__main__":
-    print("Starting...")
+    import cli
+    cli.main()
 
     # To start fresh:
     # run(jd_url="...", company_name="...")
