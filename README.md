@@ -4,9 +4,25 @@ An AI-powered resume tailoring tool that takes a job posting URL and produces
 a tailored resume draft through automated research, gap analysis, and 
 iterative interview.
 
+## Brand
+
+**Name:** Taylor  
+**Tagline:** Your story. Perfectly fitted.  
+**Colors:** Navy (#1a2744) + White  
+
+**Logo status:** Current logo in `static/logo.svg` is a placeholder generated programmatically. 
+Final wordmark (with Y as necktie knot shape) and icon (necktie knot in circle) 
+to be replaced with assets designed in Figma/Canva.  
+
+**Logo specs for designer:**
+- Wordmark: TAYLOR, serif font, navy, Y replaced by Windsor knot tie shape (lapels spread upward, knot center, short blade drop)
+- Icon: Navy circle, white necktie knot filling the circle (Da Vinci proportions — knot fills the frame)
+- Tagline: same width as wordmark, left-aligned, italic serif, navy, reduced opacity
+- Export needed: SVG + PNG transparent background at 2x
+
 ## Status
 Working prototype — terminal-based, single user.
-Web UI and Google Docs export in progress.
+Web UI and Docx export in progress.
 
 ## What it does
 1. Fetches and analyzes any job posting URL
@@ -32,11 +48,11 @@ BRAVE_API_KEY=your_key_here
 ## Requirements
 - Python 3.10+
 - Anthropic API key
-- Brave Search API key (free tier: 2,000 queries/month)
+- Brave Search API key (1,000 queries/5$)
 
 ## Roadmap
 - [ ] Web UI
-- [ ] Google Docs export
+- [ ] Docx export
 - [ ] Role-agnostic generalization
 - [ ] Candidate tone and style samples for humanizer
 - [ ] Multi-user support
