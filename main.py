@@ -199,17 +199,3 @@ def run(jd_url=None, company_name=None, candidate_notes=None,
 if __name__ == "__main__":
     import cli
     cli.main()
-
-    # To start fresh:
-    # run(jd_url="...", company_name="...")
-
-    # To skip to a step:
-    run(
-        jd_url="https://job-boards.greenhouse.io/kikoff/jobs/4147903009",
-        company_name="Kikoff",
-        start_from="draft"
-    )
-
-    # To resume a saved session:
-    # session.list_sessions()
-    # run(resume_from="users/default/sessions/session_kikoff_20260101_1200.json")
